@@ -1,0 +1,442 @@
+[
+    {
+        "word": "apple",
+        "category": "fruit"
+    },
+    {
+        "word": "banana",
+        "category": "fruit"
+    },
+    {
+        "word": "grape",
+        "category": "fruit"
+    },
+    {
+        "word": "kiwi",
+        "category": "fruit"
+    },
+    {
+        "word": "mango",
+        "category": "fruit"
+    },
+    {
+        "word": "strawberry",
+        "category": "fruit"
+    },
+    {
+        "word": "orange",
+        "category": "fruit"
+    },
+    {
+        "word": "watermelon",
+        "category": "fruit"
+    },
+    {
+        "word": "blueberry",
+        "category": "fruit"
+    },
+    {
+        "word": "pineapple",
+        "category": "fruit"
+    },
+    {
+        "word": "elephant",
+        "category": "animal"
+    },
+    {
+        "word": "tiger",
+        "category": "animal"
+    },
+    {
+        "word": "giraffe",
+        "category": "animal"
+    },
+    {
+        "word": "lion",
+        "category": "animal"
+    },
+    {
+        "word": "panda",
+        "category": "animal"
+    },
+    {
+        "word": "dolphin",
+        "category": "animal"
+    },
+    {
+        "word": "zebra",
+        "category": "animal"
+    },
+    {
+        "word": "kangaroo",
+        "category": "animal"
+    },
+    {
+        "word": "monkey",
+        "category": "animal"
+    },
+    {
+        "word": "penguin",
+        "category": "animal"
+    },
+    {
+        "word": "paris",
+        "category": "city"
+    },
+    {
+        "word": "london",
+        "category": "city"
+    },
+    {
+        "word": "tokyo",
+        "category": "city"
+    },
+    {
+        "word": "newyork",
+        "category": "city"
+    },
+    {
+        "word": "berlin",
+        "category": "city"
+    },
+    {
+        "word": "sydney",
+        "category": "city"
+    },
+    {
+        "word": "dubai",
+        "category": "city"
+    },
+    {
+        "word": "moscow",
+        "category": "city"
+    },
+    {
+        "word": "rome",
+        "category": "city"
+    },
+    {
+        "word": "toronto",
+        "category": "city"
+    },
+    {
+        "word": "javascript",
+        "category": "programming language"
+    },
+    {
+        "word": "python",
+        "category": "programming language"
+    },
+    {
+        "word": "java",
+        "category": "programming language"
+    },
+    {
+        "word": "ruby",
+        "category": "programming language"
+    },
+    {
+        "word": "csharp",
+        "category": "programming language"
+    },
+    {
+        "word": "swift",
+        "category": "programming language"
+    },
+    {
+        "word": "kotlin",
+        "category": "programming language"
+    },
+    {
+        "word": "php",
+        "category": "programming language"
+    },
+    {
+        "word": "typescript",
+        "category": "programming language"
+    },
+    {
+        "word": "go",
+        "category": "programming language"
+    },
+    {
+        "word": "ocean",
+        "category": "nature"
+    },
+    {
+        "word": "forest",
+        "category": "nature"
+    },
+    {
+        "word": "desert",
+        "category": "nature"
+    },
+    {
+        "word": "mountain",
+        "category": "nature"
+    },
+    {
+        "word": "river",
+        "category": "nature"
+    },
+    {
+        "word": "waterfall",
+        "category": "nature"
+    },
+    {
+        "word": "volcano",
+        "category": "nature"
+    },
+    {
+        "word": "island",
+        "category": "nature"
+    },
+    {
+        "word": "rainbow",
+        "category": "nature"
+    },
+    {
+        "word": "sunset",
+        "category": "nature"
+    },
+    {
+        "word": "mountain",
+        "category": "geography"
+    },
+    {
+        "word": "continent",
+        "category": "geography"
+    },
+    {
+        "word": "valley",
+        "category": "geography"
+    },
+    {
+        "word": "plateau",
+        "category": "geography"
+    },
+    {
+        "word": "hill",
+        "category": "geography"
+    },
+    {
+        "word": "peninsula",
+        "category": "geography"
+    },
+    {
+        "word": "coast",
+        "category": "geography"
+    },
+    {
+        "word": "glacier",
+        "category": "geography"
+    },
+    {
+        "word": "desert",
+        "category": "geography"
+    },
+    {
+        "word": "savannah",
+        "category": "geography"
+    },
+    {
+        "word": "guitar",
+        "category": "instrument"
+    },
+    {
+        "word": "piano",
+        "category": "instrument"
+    },
+    {
+        "word": "violin",
+        "category": "instrument"
+    },
+    {
+        "word": "drum",
+        "category": "instrument"
+    },
+    {
+        "word": "flute",
+        "category": "instrument"
+    },
+    {
+        "word": "saxophone",
+        "category": "instrument"
+    },
+    {
+        "word": "trumpet",
+        "category": "instrument"
+    },
+    {
+        "word": "harp",
+        "category": "instrument"
+    },
+    {
+        "word": "banjo",
+        "category": "instrument"
+    },
+    {
+        "word": "clarinet",
+        "category": "instrument"
+    },
+    {
+        "word": "basketball",
+        "category": "sport"
+    },
+    {
+        "word": "football",
+        "category": "sport"
+    },
+    {
+        "word": "tennis",
+        "category": "sport"
+    },
+    {
+        "word": "cricket",
+        "category": "sport"
+    },
+    {
+        "word": "volleyball",
+        "category": "sport"
+    },
+    {
+        "word": "badminton",
+        "category": "sport"
+    },
+    {
+        "word": "golf",
+        "category": "sport"
+    },
+    {
+        "word": "hockey",
+        "category": "sport"
+    },
+    {
+        "word": "boxing",
+        "category": "sport"
+    },
+    {
+        "word": "archery",
+        "category": "sport"
+    },
+    {
+        "word": "bread",
+        "category": "food"
+    },
+    {
+        "word": "pizza",
+        "category": "food"
+    },
+    {
+        "word": "sushi",
+        "category": "food"
+    },
+    {
+        "word": "burger",
+        "category": "food"
+    },
+    {
+        "word": "pasta",
+        "category": "food"
+    },
+    {
+        "word": "salad",
+        "category": "food"
+    },
+    {
+        "word": "noodles",
+        "category": "food"
+    },
+    {
+        "word": "cheese",
+        "category": "food"
+    },
+    {
+        "word": "cake",
+        "category": "food"
+    },
+    {
+        "word": "taco",
+        "category": "food"
+    },
+    {
+        "word": "moon",
+        "category": "space"
+    },
+    {
+        "word": "sun",
+        "category": "space"
+    },
+    {
+        "word": "earth",
+        "category": "space"
+    },
+    {
+        "word": "mars",
+        "category": "space"
+    },
+    {
+        "word": "jupiter",
+        "category": "space"
+    },
+    {
+        "word": "saturn",
+        "category": "space"
+    },
+    {
+        "word": "nebula",
+        "category": "space"
+    },
+    {
+        "word": "asteroid",
+        "category": "space"
+    },
+    {
+        "word": "comet",
+        "category": "space"
+    },
+    {
+        "word": "galaxy",
+        "category": "space"
+    },
+    {
+        "word": "train",
+        "category": "transport"
+    },
+    {
+        "word": "airplane",
+        "category": "transport"
+    },
+    {
+        "word": "car",
+        "category": "transport"
+    },
+    {
+        "word": "bicycle",
+        "category": "transport"
+    },
+    {
+        "word": "motorcycle",
+        "category": "transport"
+    },
+    {
+        "word": "boat",
+        "category": "transport"
+    },
+    {
+        "word": "helicopter",
+        "category": "transport"
+    },
+    {
+        "word": "submarine",
+        "category": "transport"
+    },
+    {
+        "word": "bus",
+        "category": "transport"
+    },
+    {
+        "word": "truck",
+        "category": "transport"
+    }
+]

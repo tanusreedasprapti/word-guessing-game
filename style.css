@@ -1,0 +1,121 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #edf2f7;
+    /* Soft Blue-Gray */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+:root {
+    --bg-color: #ffffff;
+    --primary-color: #1d72b8;
+    /* Modern Blue */
+    --secondary-color: #6c757d;
+    /* Muted Gray */
+    --success-color: #28a745;
+    /* Success Green */
+    --input-border: #ced4da;
+}
+
+/* Game Container */
+.game-container {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--bg-color);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #155a8a;
+}
+
+#letter-input {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    font-size: 18px;
+    border: 2px solid var(--input-border);
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+#letter-input:focus {
+    border-color: var(--primary-color);
+}
+
+#word-placeholder {
+    font-size: 26px;
+    letter-spacing: 8px;
+    margin: 20px 0;
+}
+
+.shake {
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+
+    75% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* Notification Styling */
+.notification {
+    display: none;
+    background-color: var(--success-color);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.notification.show {
+    display: block;
+}

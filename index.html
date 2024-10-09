@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Made by Nayan Das -->
+<!-- Follow ME: https://socialportal.nayanchandradas.com -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Guessing Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="game-container">
+        <header>
+            <h1>Guess The Word</h1>
+        </header>
+
+        <main>
+            <div class="game-info">
+                <p id="difficulty">Difficulty: <span>Easy</span></p>
+                <p id="timer">Time left: <span>60</span> seconds</p>
+                <p id="score">Score: <span>0</span></p>
+            </div>
+
+            <div class="word-container">
+                <p id="word-placeholder">_ _ _ _ _</p>
+            </div>
+
+            <input type="text" id="letter-input" placeholder="Enter a letter" maxlength="1">
+            <button id="hint-btn">Hint</button>
+            <button id="reset-btn">Reset</button>
+        </main>
+    </div>
+
+    <!-- Notification -->
+    <div id="notification" class="notification">Great job! You guessed the word!</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
